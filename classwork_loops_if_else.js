@@ -54,24 +54,44 @@
 
 
 // do/while
-let num4 = 1
-do {
-    console.log(num4) 
-    num4++
-    console.log(num4);
-} while (num4 <= 7)
+// let num4 = 1
+// do {
+//     console.log(num4) 
+//     num4++
+//     console.log(num4);
+// } while (num4 <= 7)
 
 
-// For
-for (let i = 0; i < 7; i++) {
-    console.log(i);
+// // For
+// for (let i = 0; i < 7; i++) {
+//     console.log(i);
+// }
+
+//  let num = 10
+//  let sumOfLoop = 20
+// // for (let i = 0; i <= num; i+=2) {
+// //     console.log(i)
+// //     if (i == 6) break;
+// //     sumOfLoop += i
+// // }
+// // console.log(sumOfLoop);
+
+// for (let i = 0; i <= num; i+=2) {
+//     if ( i == 6)
+//     console.log(i);
+// }
+// console.log(sumOfLoop);
+
+// for in
+// for of
+const obj1 = {prop1:1, prop2:2, prop3:'value3'}
+for (let prop in obj1) {
+    console.log(prop);
+    console.log(`${obj1[prop]}`)
+    if (`${obj1[prop]}`== 'New') 
+     console.log;
 }
-
-let num = 1
-let sumOfLoop = 0
-for (let i = 0; i <= num; i+=2) {
-    console.log(i)
-    if (i == 6) break;
-    sumOfLoop += i
+const arr1 = ['val1', 'val2', 'val3']
+for (let val0 in arr1) {
+    console.log(arr1);
 }
-console.log(sumOfLoop);
