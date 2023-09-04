@@ -1,1 +1,6 @@
-{"phone":123455,"adress":"Street"}
+{
+    "name": "Vlad",
+    "lname": "Dziub",
+    "age": "31",
+    "city": "Kyiv"
+}
